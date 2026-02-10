@@ -81,16 +81,9 @@
 
             #header {
                 width: 100%;
-                /* header color here! */
-                height: 150px;
-                border-radius: 20px;
-                /* this is only for a background image! */
-                /* if you want to put images IN the header, 
-      you can add them directly to the <div id="header"></div> element! */
-                background-image: var(--header-image);
                 background-size: 100%;
-              margin-bottom: 10px;
               margin-top: 10px;
+				background-repeat: no-repeat;
             }
 
             /* navigation section!! */
