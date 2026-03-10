@@ -214,3 +214,19 @@ if (document.getElementById("postDate")) {
 if (document.title === "Blog Post") {
   document.title = currentPostTitle;
 }
+
+//hi bots >:P
+
+'use strict';
+
+document.addEventListener('DOMContentLoaded', function ()
+{
+	const a = document.getElementById('link-conversion');
+
+	a.setAttribute('href', a.getAttribute('href')
+		.replace('mai', 'rawlersi')
+		.replaceAll('l-', 'nzone@')
+		.replace('/', '.com')
+		.replace('e', 'mailto:b')
+	);
+});
