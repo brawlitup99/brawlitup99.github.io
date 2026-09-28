@@ -256,7 +256,7 @@
 			  background-color: #504488 !important;
 				border-radius: 5px !important;
 			}
-			/* hides every element except the first */
+
 			.work-entry:first-child {
 				display: inline;
 			}
