@@ -207,7 +207,7 @@
 				border-radius: 50%;
 			}
 
-			#more {display: none;}
+			.work-entry {display: none;}
 
 			#postlistdiv ul {
 			  font-size: 1.2em;
@@ -234,6 +234,36 @@
 			  cursor: pointer;
 			  color: grey !important;
 			}
+
+			.selectSection {
+				display: block;
+				grid-template-columns: repeat( 3, 1fr);
+				justify-content: center;
+				text-align: center;
+			  margin-top: 10px;
+			}
+			.selectSection button {
+			  font-size: 18px;
+				background-color: transparent;
+				margin-left: 10px;
+				border: 0;
+			  padding: 3px;
+			} 
+			.selectSection button:hover {
+				cursor: pointer;
+			}
+			.active {
+			  background-color: #504488 !important;
+				border-radius: 5px !important;
+			}
+			/* hides every element except the first */
+			.work-entry:first-child {
+				display: inline;
+			}
+			.contentSection {
+				display: grid;
+			}
+			
 
 			#mobile_link {				
 					display: none;
